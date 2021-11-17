@@ -3,6 +3,7 @@
 	position: relative;
 	z-index: 1;
 }
+
 .navbar-brand {
 	font-family: Viga;
 	font-size: 32px;
@@ -40,10 +41,12 @@
 	font-size: 40px;
 	margin-bottom: 30px;
 }
+
 .jumbotron .container {
 	z-index: 1;
 	position: relative;
 }
+
 .jumbotron .display-4 span {
 	font-weight: 500;
 }
@@ -87,6 +90,7 @@
 	height: 507px;
 	border-radius: 20px;
 }
+
 .workingspace h3 {
 	font-size: 52px;
 	font-weight: 200;
@@ -150,15 +154,18 @@
 
 /* Deskrop Version */
 @media (min-width: 992px) {
+
 	.navbar-brand,
 	.nav-link {
 		color: white !important;
 		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 	}
+
 	.nav-link {
 		text-transform: uppercase;
 		margin-right: 30px;
 	}
+
 	.nav-link:hover::after {
 		content: '';
 		display: block;
@@ -173,6 +180,7 @@
 		margin-top: -75px;
 		height: 640px;
 	}
+
 	.jumbotron .display-4 {
 		font-size: 62px;
 	}
